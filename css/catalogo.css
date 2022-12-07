@@ -1,0 +1,68 @@
+
+.texc{text-align: center;
+    font-size:1.2em ;
+    padding:15px;
+}
+#dos{background-image:url(../img/fin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+/* ------------------------LISTAS------------------------ */
+.texc p{
+    font-size:1.3em;
+}
+.texc .w{
+    background-color: rgb(174, 88, 255);
+    border-style: none;
+    font-size:1.3em;
+}
+.texc .w a{
+    color:white;
+}
+#dos ul li{
+    border-bottom: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.082);
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#dos ul li h2{
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 20px;
+    font-family:'marchila';
+    color:rgb(94, 31, 55);
+}
+#dos ul li img {
+margin:20px ;
+border-radius: 20px 20px  0px 0px;
+}
+#dos ul li p{
+    text-align: left;
+    margin:5px;
+    width: 65%;
+    color: black;
+    font-family:'roboto';
+    font-size: 1em;
+}
+ #dos ul li button{
+    background-color: rgb(174, 88, 255);
+    border: 1px rebeccapurple;
+    margin-left:26%;
+    font-size:1.1em;
+    color: white;
+    width: 50%;
+} 
+#dos ul li button i{
+    font-size:1.2em;
+}
+#dos .derecha h2{order: 1;}
+
+#dos .derecha p{ order: 2;
+}
+
+#dos .derecha img{order: 3;
+}
+/* -----------------------FIN LISTAS---------------------- */

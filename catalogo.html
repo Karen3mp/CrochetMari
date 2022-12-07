@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITULO-->
+    <title>CROCHET MARI</title>
+
+    <!-- SEO--> 
+    <meta name="author" content="Karen pinillos">
+    <meta name="author" content="sena">
+    <meta name="keywords" content="multimedia,crochet,tejidos,diseño,marca">
+    <meta name="description" content="diseño,marca">
+
+    <!-- GALERIA ICON FONT-->
+    <script src="https://kit.fontawesome.com/5181f42ced.js" crossorigin="anonymous"></script>
+
+     <!-- FUENTES -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+     <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,800;1,400&family=IBM+Plex+Sans+Arabic" rel="stylesheet">
+
+     <!-- ESTILO Y CONEXION -->
+    <link rel="stylesheet" href="./css/estilogeneral.css">
+    <link rel="stylesheet" href="./css/catalogo.css">
+
+    <!-- FAVICON-->
+    <link rel="icon" href=""> 
+
+    <!-- CONEXION CSS BOOSTRAP -->
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+</head>
+<body> 
+
+    <!----------------------------------BARRA------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="acerca.html">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalogo.html">catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="politicas.html">políticas</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                  <i class=" navbar-text fa-solid fa-cart-shopping"></i>
+                 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <!----------------------------------FIN BARRA----------------------------------->
+
+  <div class="texc"><p>Si lo que buscas no esta aqui</p>
+    <button class="w"><a href="https://wa.me/573015623050?text=Estoy interesad@ en tus productos" target="_blank">Haz click</a></button></div>
+
+      <section id="dos" class=" container-fluid">
+        <div class="row">
+
+    <!----------------------------------LISTA 1------------------------------------->
+
+            <ul class=" izquierda col-xl-6 col-lg-6 col-md-12 col-ms-12 p-5 text-center">
+                <li>
+                    <h2>Gorrito</h2>    
+                    <img src="img/gorrito.jpg" height="160">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto 
+                    est tempora cumque porro eos dolor maiores aliquam assumenda sit amet est
+                    tempora cumque porro eos dolor maiores aliquam assumenda sit amet est tempora
+                    cumque porro eos dolor maiores aliquam assumenda sit amet est tempora cumque porro eos dolor.
+                    <br><br>
+                    <button onclick="add('Gorrito cute')"><i class=" navbar-text fa-solid fa-cart-shopping"></i></button></p>
+                </li>
+            </ul>
+
+            <ul class=" derecha col-xl-6 col-lg-6 col-md-12 col-ms-12 p-5 text-center">
+                <li>
+                    <h2>Girasol</h2>
+                    <img src="img/girasol.jpg" height="160">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto 
+                    est tempora cumque porro eos dolor maiores aliquam assumenda sit amet est
+                    tempora cumque porro eos dolor maiores aliquam assumenda sit amet est tempora
+                    cumque porro eos dolor maiores aliquam assumenda sit amet est tempora cumque porro eos dolor.
+                    <br><br>
+                    <button onclick="add('Girasol')"><i class=" navbar-text fa-solid fa-cart-shopping"></i></button></p>
+                </li> 
+            </ul>
+
+            <ul class=" izquierda col-xl-6 col-lg-6 col-md-12 col-ms-12 p-5 text-center">
+                <li>
+                    <h2>Croptop</h2>
+                    <img src="img/croptop.jpg" height="160">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto 
+                    est tempora cumque porro eos dolor maiores aliquam assumenda sit amet est
+                    tempora cumque porro eos dolor maiores aliquam assumenda sit amet est tempora
+                    cumque porro eos dolor maiores aliquam assumenda sit amet est tempora cumque porro eos dolor.
+                    <br><br>
+                    <button onclick="add('croptop negro con rosa')"><i class=" navbar-text fa-solid fa-cart-shopping"></i></button></p>
+                </li>
+            </ul>
+
+    <!---------------------------------FIN LISTA 1---------------------------------->
+
+    <!----------------------------------LISTA 2------------------------------------->
+        
+            <ul class=" derecha col-xl-6 col-lg-6 col-md-12 col-ms-12 p-5 text-center">
+                <li>
+                    <h2>Amigurumi</h2>    
+                    <img src="img/amigurumi.jpg" height="160">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto 
+                    est tempora cumque porro eos dolor maiores aliquam assumenda sit amet est
+                    tempora cumque porro eos dolor maiores aliquam assumenda sit amet est tempora
+                    cumque porro eos dolor maiores aliquam assumenda sit amet est tempora cumque porro eos dolor.
+                    <br><br>
+                    <button onclick="add('Conejito amigurumi')"><i class=" navbar-text fa-solid fa-cart-shopping"></i></button></p>
+                </li>
+            </ul>
+
+            <ul class=" izquierda col-xl-6 col-lg-6 col-md-12 col-ms-12 p-5 text-center">
+                <li>
+                    <h2>Llavero</h2>
+                    <img src="img/llavero.jpg" height="160">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto 
+                    est tempora cumque porro eos dolor maiores aliquam assumenda sit amet est
+                    tempora cumque porro eos dolor maiores aliquam assumenda sit amet est tempora
+                    cumque porro eos dolor maiores aliquam assumenda sit amet est tempora cumque porro eos dolor.
+                    <br><br>  
+                    <button onclick="add('Llavero de abejita')"><i class=" navbar-text fa-solid fa-cart-shopping"></i></button></p>
+                </li>
+            </ul>
+
+            <ul class=" derecha col-xl-6 col-lg-6 col-md-12 col-ms-12 p-5 text-center">
+                <li>
+                    <h2>Adorno</h2>
+                    <img src="img/fresas.jpg" height="160">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto 
+                    est tempora cumque porro eos dolor maiores aliquam assumenda sit amet est
+                    tempora cumque porro eos dolor maiores aliquam assumenda sit amet est tempora
+                    cumque porro eos dolor maiores aliquam assumenda sit amet est tempora cumque porro eos dolor.
+                    <br><br>
+                    <button onclick="add('Fresitas')"><i class=" navbar-text fa-solid fa-cart-shopping"></i></button></p>
+                </li>
+            </ul>
+        </section>
+    <!----------------------------------FIN LISTA 2---------------------------------->
+
+    <!-------------------------------------ASIDE--------------------------------------->
+          <aside>
+            <a href="https://instagram.com/crochet_mari22?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/insta.png"></a> 
+            <a href="https://www.facebook.com/profile.php?id=100025261214647&mibextid=ZbWKwL" target="_blank"><img src="img/fb.png"></a> 
+            <a href=""><img src="img/twitter.png"></a> 
+            <a href="https://wa.me/573015623050?text=Hola" target="_blank"><img src="img/wh.png"></a>
+        </aside>
+    <!-----------------------------------FIN ASIDE----------------------------------->
+  
+    <!--------------------------------------FOOTER------------------------------------->
+        <footer>
+              <p class="">"Tejidos hechos con amor"</p>
+        </footer>
+    <!-----------------------------------FIN FOOTER------------------------------------>
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="staticBackdropLabel">Mi Carrito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+         
+       <h2>Productos</h2>
+        <div id="lista_de_carrito" class="w-100 px-2 my-3">
+          
+      </div>
+      <div>
+          <button class="btn btn-primary" type="button" onclick="openwin()">
+              HACER PEDIDO
+             </button>
+      </div>
+    </div>
+</body>
+</html>
+  <!-- CONEXION DE JS BOOSTRAP -->
+  <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+  
+
+<script>
+    
+     
+  let item = "";
+
+ let listado_array = [];
+ function add(x){
+         
+         item = " • " + x + " ";
+         
+
+         listado_array.push(item);
+         // vaciar la lista
+         document.getElementById("lista_de_carrito").innerHTML = "";
+ 
+
+          for(var i = 0; i < listado_array.length;i++ ){
+            
+              document.getElementById("lista_de_carrito").innerHTML += listado_array[i];
+              document.getElementById("lista_de_carrito").innerHTML += "<br>";
+          }
+         //MSM AGREGADO
+         alert("Producto " + x + " agregado al carrito exitosamente");
+        
+     }
+
+      //MSM ENCABEZADO Y NUMERO DE WASA
+ let wame = "https://wa.me/573015623050?text=Estoy interesad@ en estos productos:";
+
+ function openwin(){
+     let mensaje =  document.getElementById("lista_de_carrito").textContent;
+     wame+= mensaje;
+     //alert(wame);
+    window.open(wame);
+ }
+ </script>
