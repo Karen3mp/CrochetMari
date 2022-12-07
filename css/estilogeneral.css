@@ -2,7 +2,7 @@
 /* ---------------------BARRA--------------------- */
 .navbar{
     background-color: rgb(179, 116, 238); 
-    height:11vh ;
+    height:12vh ;
     width:100%;
     display:flex;
     position: fixed;
